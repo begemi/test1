@@ -5,7 +5,6 @@ pageextension 50100 CustomerListExt extends "Customer List"
     var
         i: integer;
         cu: codeunit CUTest;
-        vend: record Vendor;
 
     trigger OnOpenPage();
     begin
