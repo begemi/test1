@@ -2,8 +2,6 @@
 
 pageextension 50100 CustomerListExt extends "Customer List"
 {
-
-
     var
         i: integer;
 
@@ -16,4 +14,5 @@ pageextension 50100 CustomerListExt extends "Customer List"
     begin
         Message('App published: Bye world test 1 balu099');
     end;
+
 }
