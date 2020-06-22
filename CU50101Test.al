@@ -1,4 +1,4 @@
-codeunit 50101 CUPurchPaymentApprovalMgmt
+codeunit 50101 CUTest
 {
     Permissions = TableData "Vendor Ledger Entry" = rm;//mora imati modify prava codeunit, inace ovo ne radi...
                                                        //zato ne radi iz pageextension - niko nema porava na izmjene ledger entries , 
@@ -30,6 +30,19 @@ codeunit 50101 CUPurchPaymentApprovalMgmt
 
         //end;
 
+    end;
+
+    var
+        x: integer;
+
+    procedure SetX(y: integer)
+    begin
+        x := y;
+    end;
+
+    procedure GetX(): integer
+    begin
+        exit(x)
     end;
 
 }
